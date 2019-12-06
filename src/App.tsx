@@ -1,4 +1,6 @@
-import React from 'react'
+import * as React from 'react'
+import List from './components/list'
+import './App.scss'
 
 interface PropsType {
     // text:string
@@ -11,10 +13,11 @@ class App extends React.Component<PropsType, {}> {
 
     render() {
         return (
-            <React.Fragment>
+            <div className="wrap">
                 <h1>react lazyload！</h1>
-                {/*<p>{this.props.text}</p>*/}
-            </React.Fragment>
+                <p>hello worlds</p>
+                <List/>
+            </div>
         )
     }
 }
