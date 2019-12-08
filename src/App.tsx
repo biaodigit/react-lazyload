@@ -16,7 +16,7 @@ class App extends React.Component<PropsType, {}> {
             <div className="wrap">
                 <h1>react lazyload！</h1>
                 <p>hello worlds</p>
-                <List/>
+                <List />
             </div>
         )
     }
